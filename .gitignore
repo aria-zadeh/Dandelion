@@ -1,0 +1,113 @@
+# Learn more https://docs.github.com/en/get-started/getting-started-with-git/ignoring-files
+
+# dependencies
+node_modules/
+
+# Expo
+.expo/
+dist/
+web-build/
+expo-env.d.ts
+
+# Native
+.kotlin/
+*.orig.*
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+
+# Metro
+.metro-health-check*
+
+# debug
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+
+# macOS
+.DS_Store
+*.pem
+
+# Environment files — NEVER commit these
+.env
+.env.local
+.env.development
+.env.development.local
+.env.test
+.env.test.local
+.env.production
+.env.production.local
+.env.staging
+.env*.local
+*.env
+
+# Secrets
+.secrets
+secrets.json
+
+# typescript
+*.tsbuildinfo
+
+app-example
+
+# generated native folders
+/ios
+/android
+# Claude Code / AI tooling
+.claude/
+CLAUDE.md
+.paul/
+thoughts/
+graphify-out/
+/.claude/worktrees
+.playwright-*
+*.playwright*
+.playwright
+.playwright-mcp/
+task4-*.png
+.agents/
+.impeccable.md
+skills-lock.json
+.mcp.json
+.graphify_uncached.txt
+Reference/
+PHASE8_PLAN.md
+2026-04-11_Phase_3_Supabase_Auth_Backend.md
+
+backend/.env
+/graphify-out
+/test-screenshots
+
+.vercel
+verify-profile.png
+verify-profile-scrolled.png
+verify-profile-bottom.png
+verify-onboarding-welcome.png
+verify-onboarding-notifications.png
+verify-onboarding-energy.png
+verify-onboarding-availability.png
+verify-new-task-top.png
+verify-magic-link-sent.png
+verify-local-auth.png
+verify-home-with-task.png
+verify-home-screen.png
+verify-event-added.png
+verify-dev-mode-button.png
+verify-calendar.png
+verify-busy-times.png
+verify-auth-screen.png
+verify-add-event-modal.png
+calendar-auto-scheduled.png
+dark-mode-calendar.png
+dark-mode-focus.png
+dark-mode-home.png
+dark-mode-profile.png
+nul
+phase10-calendar-tab.png
+phase10-dark-mode.png
+phase10-home-tab.png
+phase10-tasks-tab.png
+phase11-calendar-single-block.png
+phase11-home-tab.png

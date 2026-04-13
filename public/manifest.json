@@ -1,0 +1,16 @@
+{
+  "name": "Focal",
+  "short_name": "Focal",
+  "description": "ADHD-friendly task & time management",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#faf8f5",
+  "theme_color": "#d4a039",
+  "icons": [
+    {
+      "src": "/favicon.ico",
+      "sizes": "48x48",
+      "type": "image/x-icon"
+    }
+  ]
+}
